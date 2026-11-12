@@ -7,9 +7,10 @@ export const SECTIONS = [
   { id: 'ciclo', n: '02', label: 'Ciclo' },
   { id: 'reglas', n: '03', label: 'Reglas' },
   { id: 'demo', n: '04', label: 'Demo' },
-  { id: 'metodo', n: '05', label: 'Método' },
-  { id: 'nodos', n: '06', label: 'Nodos' },
-  { id: 'equipo', n: '07', label: 'Equipo' },
+  { id: 'negocio', n: '05', label: 'Negocio' },
+  { id: 'numeros', n: '06', label: 'Números' },
+  { id: 'nodos', n: '07', label: 'Crecer' },
+  { id: 'metodo', n: '08', label: 'Estado' },
 ];
 
 export function Wordmark() {

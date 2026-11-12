@@ -201,7 +201,8 @@ export function Wallet({ onGoMarket }: { onGoMarket: () => void }) {
                 <li key={a.id}>
                   <span>
                     {a.title}
-                    <small>{a.detail}</small>
+                    {a.sponsor && <em className="sponsored">Patrocinado</em>}
+                    <small>{a.sponsor ? `${a.detail} · lo patrocina ${a.sponsor}` : a.detail}</small>
                   </span>
                   <button
                     className="pill"

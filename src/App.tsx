@@ -7,7 +7,8 @@ import { Cycle } from './site/Cycle';
 import { Rules } from './site/Rules';
 import { Method } from './site/Method';
 import { Federation } from './site/Federation';
-import { Team } from './site/Team';
+import { Business } from './site/Business';
+import { Finance } from './site/Finance';
 import { Footer } from './site/Footer';
 
 export function App() {
@@ -23,9 +24,10 @@ export function App() {
         <Cycle />
         <Rules />
         <DemoSection />
-        <Method />
+        <Business />
+        <Finance />
         <Federation />
-        <Team />
+        <Method />
       </main>
       <Footer />
     </DemoProvider>

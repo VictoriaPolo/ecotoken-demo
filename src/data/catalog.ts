@@ -45,6 +45,7 @@ export const ACTIVITIES: Activity[] = [
   { id: 'huerta', title: 'Jornada de voluntariado en la huerta', detail: 'Con Colectivo Raíz · 4 horas', reward: 20, category: 'evento' },
   { id: 'mod1', title: 'Módulo: ¿qué es la economía solidaria?', detail: 'Formación solidaria · 40 min · una vez', reward: 30, category: 'formacion', once: true },
   { id: 'mod2', title: 'Módulo: cooperativas y finanzas solidarias', detail: 'Formación solidaria · 50 min · una vez', reward: 30, category: 'formacion', once: true },
+  { id: 'reto', title: 'Reto: finanzas para emprender', detail: '3 lecciones y un quiz · una vez', reward: 35, category: 'formacion', once: true, sponsor: 'una cooperativa financiera (ejemplo)' },
   { id: 'referido', title: 'Vincular a un nuevo miembro', detail: 'Cuenta cuando hace su primer intercambio', reward: 15, category: 'evento' },
 ];
 

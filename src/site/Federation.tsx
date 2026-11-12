@@ -18,7 +18,7 @@ export function Federation() {
     <section className="section federation" id="nodos" aria-labelledby="nodos-t">
       <div className="federation__grid">
         <header className="section__head">
-          <p className="section__num">06 — Modelo federado</p>
+          <p className="section__num">07 — Cómo crece</p>
           <h2 id="nodos-t">Un nodo por universidad. Una red entre todas.</h2>
           <p className="prose">
             Cada institución puede montar su propio nodo, con sus parámetros (cuánto dura el ECO, cuál es el tope) y su
@@ -26,11 +26,11 @@ export function Federation() {
             campus.
           </p>
           <p className="prose">
-            Que el código sea abierto busca justo eso: que adoptarlo no tenga costo de licencia y que replicarlo sea
-            fácil.
+            Para el negocio, cada nodo nuevo es un cliente: paga la implementación una vez y la licencia cada mes. Como
+            el código es abierto, la entrada es fácil; lo que se vende es tenerlo funcionando.
           </p>
-          <a className="btn btn--ink" href="mailto:laura.polo@campusucc.edu.co?subject=EcoToken%20-%20nodo%20universitario">
-            Quiero un nodo en mi universidad
+          <a className="btn btn--ink" href="#numeros">
+            Ver cuántos nodos hacen falta
           </a>
         </header>
         <svg className="fedmap" viewBox="0 0 560 380" role="img" aria-label="Nodo inicial en Bogotá conectado con futuros nodos de otras universidades">

@@ -26,7 +26,7 @@ export function Method() {
   return (
     <section className="section method" id="metodo" aria-labelledby="metodo-t">
       <header className="section__head">
-        <p className="section__num">05 — Método y estado</p>
+        <p className="section__num">08 — Estado del proyecto</p>
         <h2 id="metodo-t">Investigación aplicada, en cuatro fases que se retroalimentan.</h2>
         <p className="section__intro prose">
           Enfoque mixto, con emprendedores de varias universidades y el Campus Bogotá de la Universidad Cooperativa de

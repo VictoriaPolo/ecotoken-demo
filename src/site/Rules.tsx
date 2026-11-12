@@ -2,13 +2,14 @@ import { useId, useState, type ReactNode } from 'react';
 import { Stamp } from '../ui/Stamp';
 import { eco } from '../ui/format';
 
-function Slider(props: {
+export function Slider(props: {
   label: string;
   value: number;
   min: number;
   max: number;
   step?: number;
-  unit: string;
+  unit?: string;
+  format?: (v: number) => string;
   onChange: (v: number) => void;
 }) {
   const id = useId();
@@ -16,9 +17,7 @@ function Slider(props: {
     <div className="slider">
       <label htmlFor={id}>
         {props.label}
-        <output htmlFor={id}>
-          {props.value} {props.unit}
-        </output>
+        <output htmlFor={id}>{props.format ? props.format(props.value) : `${props.value} ${props.unit ?? ''}`}</output>
       </label>
       <input
         id={id}

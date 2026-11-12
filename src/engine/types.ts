@@ -71,6 +71,8 @@ export interface Activity {
   reward: number;
   category: Category;
   once?: boolean;
+  /** Lo paga un patrocinador en pesos, fuera de la app; los ECO los emite el nodo. */
+  sponsor?: string;
 }
 
 export interface Notice {

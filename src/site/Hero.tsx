@@ -5,7 +5,7 @@ export function Hero() {
     <section className="hero" id="top">
       <div className="hero__text">
         <p className="kicker">
-          Moneda digital comunitaria <span>·</span> prototipo de código abierto <span>·</span> VI ESIS 2026
+          Moneda digital comunitaria <span>·</span> código abierto <span>·</span> modelo de negocio
         </p>
         <h1 className="hero__title">
           Una moneda que no se deja <span className="strike">guardar</span>.
@@ -20,8 +20,8 @@ export function Hero() {
             Probar la demo
             <span aria-hidden="true">↓</span>
           </a>
-          <a className="btn btn--line" href="#reglas">
-            Ver las tres reglas
+          <a className="btn btn--line" href="#negocio">
+            Cómo genera ganancias
           </a>
         </div>
         <dl className="hero__facts">
@@ -30,8 +30,8 @@ export function Hero() {
             <dd>25 jul 2025</dd>
           </div>
           <div>
-            <dt>Fase actual</dt>
-            <dd>3 de 4 · desarrollo</dd>
+            <dt>Costo para estudiantes</dt>
+            <dd>$0</dd>
           </div>
           <div>
             <dt>Nodo inicial</dt>
