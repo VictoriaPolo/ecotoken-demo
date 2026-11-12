@@ -3,6 +3,8 @@
 Demo interactiva de **EcoToken**, una moneda digital comunitaria de código abierto para que estudiantes,
 emprendimientos y organizaciones de la economía social y solidaria (ESS) intercambien dentro de la universidad.
 
+**Verla en línea:** https://victoriapolo.github.io/ecotoken-demo/
+
 Incluye el modelo de negocio (cómo se sostiene sin cobrarle a los estudiantes) y un análisis contable interactivo,
 para exponer el proyecto en clase.
 

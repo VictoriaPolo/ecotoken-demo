@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "publicar": "npm test && npm run build && cd dist && git init -q -b gh-pages && git add -A && git commit -q --allow-empty -m publicar && git push -q -f https://github.com/VictoriaPolo/ecotoken-demo.git gh-pages"
   },
   "dependencies": {
     "react": "^19.3.0",
